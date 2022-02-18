@@ -32,9 +32,11 @@ O site completo em execução pode ser acessado [aqui](https://the-physicist.git
 - :white_check_mark: Prioridade para o uso de TAGs semânticas.
 - :white_check_mark: Nova borda para o vídeo de chamada.
 - :white_check_mark: Botões com *hover*.
-- :x: Menu de navegação responsivo.
-- :x: Melhorar *layout* para telas menores.
-- :x: Otimizar o uso das variáveis globais de CSS para melhorar carregamento da página.
+
+### Em breve
+- [ ] Menu de navegação responsivo.
+- [ ] Melhorar *layout* para telas menores.
+- [ ] Otimizar o uso das variáveis globais de CSS para melhorar carregamento da página.
 
 # Dependências
 
