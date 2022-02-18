@@ -1,0 +1,53 @@
+/* FAQ Section */
+
+.faq {
+  background-color: var(--bg-section-faq);
+}
+
+/* FAQ Container */
+
+.faq__container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 7.5em;
+}
+
+/* FAQ Title */
+
+.faq__title {
+  color: var(--faq-title);
+  font-weight: 800;
+  font-size: 3em;
+  line-height: 1.5em;
+  margin-left: 3.188em;
+  padding-top: 2.188em;
+}
+
+/* FAQ Box */
+
+.faq__box {
+  background-color: var(--bg-gray-dark);
+  border-radius: 1.25em;
+  margin: 2.188em;
+  padding: 1.875em;
+  cursor: pointer;
+}
+
+.faq__box summary{
+  list-style: none;
+}
+
+/* FAQ Question */
+
+.faq__question{
+  color: var(--faq-subtitle);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* FAQ Paragraph */
+
+.faq__paragraph{
+  color: var(--faq-text);
+  margin: 1em 0;
+}

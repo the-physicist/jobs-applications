@@ -1,0 +1,75 @@
+/* How-it-Works Section */
+
+.how-it-works {
+  background-color: var(--bg-white);
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 6.25em;
+}
+
+/* Container */
+
+.how-it-works__figure
+.how-it-works__text {
+  width: 50%;
+}
+
+.how-it-works__text {
+  width: 25%;
+  text-align: left;
+}
+
+/* Smartphone */
+
+.how-it-works__img {
+  width: 30.188em;
+}
+
+/* How-it-Works Title */
+
+.how-it-works__title {
+  color: var(--primary-title);
+  font-weight: 800;
+  font-size: 3em;
+  font-style: normal;
+  margin-bottom: 1em;
+}
+
+/* How-it-Works Subtitle */
+
+.how-it-works__subtitle {
+  font-weight: 600;
+  font-size: 2.188em;
+  color: var(--feedback-subtitle);
+}
+
+/* How-it-Works Paragraph */
+
+.how-it-works__paragraph {
+  font-size: 1.2em;
+  line-height: 2em;
+  color: var(--text-black);
+  margin-bottom: 1em;
+} 
+
+/* Button */
+
+.how-it-works__btn{
+  font-family: 'Inter', sans-serif;
+  font-size: 2em;
+  font-weight: 500;
+  line-height: 1.5em;
+  width: 15em;
+  height: 1.8em;
+  background-color: var(--bg-buttons);
+  color: var(--text-white);
+  border: none;
+  border-radius: 0.375em; 
+  cursor: pointer;
+  margin: .5em 0;
+}
+
+.how-it-works__btn:hover {
+  background-color: var(--btn-hover);
+  transition-duration: 0.5s
+}

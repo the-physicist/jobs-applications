@@ -1,0 +1,88 @@
+.specialists{
+  background-color: var(--bg-white);
+}
+/*** Left side ***/
+
+/* Title */
+
+.specialists__title {
+  /* Não é necessário usar a propriedade 
+  font-weight: 800; porque o h2 
+  já possui o 'weight' = bold = 800
+  */
+  font-size: 3em;
+  color: var(--primary-title);
+  margin-left: 4.188em;
+  padding-bottom: 3.125em;
+  padding-top: 2.5em;
+}
+
+/* Line */
+
+.specialists__line{
+  background-color: var(--line-blue);
+  width: 90%;
+  height: 0.3em;
+}
+
+/* Container */
+
+.specialists__container{
+  display: flex;
+  padding-right: 4.5em;
+}
+
+/* Text */
+.specialists__text {
+  padding-left: 4.813em;
+}
+
+.specialists__text p {
+  color: var(--text-black-soft);
+  font-size: 1.5em;
+  width: 70%;
+}
+
+.specialists__text--reduced{
+  display: none;
+}
+
+/*** Right side ***/
+
+.specialists__details {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 30.438em;
+  margin-top: -18.75em;
+}
+.specialists__details p {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+.specialists__details img {
+  height: 18.4em;
+}
+
+/* Button */
+
+.specialists__btn{
+  font-family: 'Inter', sans-serif;
+  font-size: 2em;
+  font-weight: 500;
+  line-height: 1.5em;
+  width: 15em;
+  height: 1.8em;
+  background-color: var(--bg-buttons);
+  color: var(--text-white);
+  border: none;
+  border-radius: 0.375em; 
+  cursor: pointer;
+  margin: 1em 0;
+}
+
+.specialists__btn:hover {
+  background-color: var(--btn-hover);
+  transition-duration: 0.5s
+}

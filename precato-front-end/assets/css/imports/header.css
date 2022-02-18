@@ -1,0 +1,34 @@
+.header {
+  display: flex;
+  background-color: var(--emphasis);
+  height: 6.625em; 
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo__link{
+  margin-left: 4em;
+}
+
+/* Navigation */
+
+/* .header__navigation {
+  margin: auto;
+  margin-left: 60em;
+}
+
+.header__navigation li,
+.header__navigation ul{
+  display: inline-block;
+}
+
+.header__navigation a{
+  color: #fff;
+  font-size: 2em;
+  text-decoration: none;
+  padding: 1em;
+  justify-content: center;
+} */

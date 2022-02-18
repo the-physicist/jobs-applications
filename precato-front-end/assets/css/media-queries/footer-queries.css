@@ -1,0 +1,14 @@
+@media (max-width: 900px) {
+
+  .footer {
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+}
+@media (max-width: 500px) {
+
+  .footer {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}

@@ -1,0 +1,15 @@
+@media (max-width: 900px) {
+  .main__title {
+    font-size: 1.875em;
+  }
+  .main__video{
+    width: 30.688em;
+  }
+  .main__btn{
+    width: 16em;
+  }
+  .main__paragraph{
+    font-size: 1.875em;
+    margin: 0 2em;
+  }
+}

@@ -1,0 +1,29 @@
+/* Colors as variables to make it easy to make changes */
+
+:root {
+  --bg-white: #fff;
+  --bg-black: #000;
+  --bg-gray: #f5f5f5;
+  --bg-gray-dark: #F6F6F6;
+  --bg-section-faq: #2ec5ce;
+  --bg-buttons: #0D75DB;
+  --bg-videos: #0D75DB;
+
+  --primary-title: #18191F;
+  --emphasis: #164C81;
+  
+  --btn-hover: #164C81;
+
+  --text-white: #fff;
+  --text-black: #000;
+  --text-black-soft: #18191F;
+  
+  --feedback-name: #0B271D;
+  --feedback-subtitle: #164C81;
+
+  --faq-title: #18191F;
+  --faq-subtitle: #112F23;
+  --faq-text: #0B271D;
+
+  --line-blue: #64b2ff;
+}

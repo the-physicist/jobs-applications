@@ -1,0 +1,34 @@
+/* Variables */
+@import url(./imports/variables.css);
+
+/* Sections Imports */
+@import url(./imports/header.css);
+@import url(./imports/main.css);
+@import url(./imports/how-it-works.css);
+@import url(./imports/feedbacks.css);
+@import url(./imports/faq.css);
+@import url(./imports/specialists.css);
+@import url(./imports/footer.css);
+
+/* Media Queries Imports */
+@import url(./media-queries/footer-queries.css);
+@import url(./media-queries/main-queries.css);
+@import url(./media-queries/how-it-works-queries.css);
+@import url(./media-queries/feedbacks-queries.css);
+@import url(./media-queries/specialists-queries.css);
+
+/* Reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Settings */
+body{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  background:  #E5E5E5;
+  width: 80%;
+  margin: 0 auto;
+}

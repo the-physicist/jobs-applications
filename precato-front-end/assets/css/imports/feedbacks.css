@@ -1,0 +1,77 @@
+/* Feedback's Container */
+
+.feedbacks__container{
+  background-color: var(--bg-gray-dark);
+  display: flex;
+  flex-flow: column wrap;
+}
+
+/* Display Box */ 
+
+.feedbacks__box {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Image as background box */
+
+.feedbacks__comments {
+  background-image: url("../../img/site/feedback-box.png");
+  background-repeat: no-repeat;
+  width: 33.125em;
+  height: 22.25em;
+  padding-bottom: 30em;
+}
+
+/* Feedback's Title */ 
+
+.feedbacks__title{
+  font-size: 2.5em;
+  font-weight: 800;
+  color: var(--primary-title);
+  margin-left: 6.5em;
+  padding: 3em 0;
+}
+
+/* People photos */
+
+.feedbacks__person{
+  margin-left: 21.625em;
+  margin-top: -3.125em;
+}
+
+/* People names */
+
+.feedbacks__name{
+  color: var(--feedback-name);
+  font-weight: 600;
+  font-size: 1.25em;
+  margin-top: -3.688em;
+  margin-left: 2.188em;
+}
+
+/* Localization icon */
+
+.feedbacks__localization{
+  display: flex;
+  margin-left: 2.7em;
+}
+
+.feedbacks__localization img{
+  height: 1.5em;
+  margin-top: .5em;
+}
+
+.feedbacks__localization p{
+  color: var(--feedback-name);
+  font-weight: 500;
+  margin: .5em;
+}
+
+/* Feedback's text */
+
+.feedbacks__paragraph{
+  font-weight: 300;
+  font-size: .938em;
+  padding: 1.625em 5.625em 0 7.625em;
+}
