@@ -33,11 +33,6 @@ O site completo em execução pode ser acessado [aqui](https://the-physicist.git
 - :white_check_mark: Nova borda para o vídeo de chamada.
 - :white_check_mark: Botões com *hover*.
 
-### Em breve
-- [ ] Menu de navegação responsivo.
-- [ ] Melhorar *layout* para telas menores.
-- [ ] Otimizar o uso das variáveis globais de CSS para melhorar carregamento da página.
-
 # Dependências
 
 Pensando exclusivamente na performance do site, uma vez que é uma página de *leads* e um rápido carregamento se faz necessário, foram utilizados apenas as tecnologias `HTML5` e `CSS3`. Além disso, *frameworks* não foram utilizados porque o autor preferiu aproveitar a oportunidade para praticar seus conhecimentos sobre os fundamentos das tecnologias supracitadas, em especial `flexbox`.
